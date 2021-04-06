@@ -1,0 +1,13 @@
+Given more time I would have added some front-end features and worked on the look
+Basic functionality is working though
+Solution is split into two: ReactJS front-end and a small NodeJS server
+
+To start server:
+	cd api
+	npm start
+	
+To start front-end:
+	cd app
+	npm start
+	
+With both running the page will be accessible on localhost:3000
