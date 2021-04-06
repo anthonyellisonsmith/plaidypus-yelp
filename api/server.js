@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 
 app.get('/businesses/search', (req, res) => {
   client.search({
-	  term: req.query.term || "",
+	  term: req.query.term,
 	  location: 'Naperville, IL',
 	}).then(response => {
 	  res.send(response.jsonBody);
